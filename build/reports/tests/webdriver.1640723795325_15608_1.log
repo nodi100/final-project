@@ -1,0 +1,374 @@
+[1640723795.628][INFO]: Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 36514
+[1640723795.628][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1640723795.953][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\NODO\\Desktop\\final_project\\build\\downloads\\1640723795242_15608_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\NODO\\Desktop\\final_project\\build\\downloads\\1640723795242_15608_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1640723795.976][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\NODO\\Desktop\\final_project\\build\\downloads\\1640723795242_15608_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1640723795.977][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1640723795.980][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\NODO\AppData\Local\Temp\scoped_dir16252_2048641536" data:,
+[1640723796.705][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1640723796.710][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1640723796.909][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "96.0.4664.110",
+      "chrome": {
+         "chromedriverVersion": "96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})",
+         "userDataDir": "C:\\Users\\NODO\\AppData\\Local\\Temp\\scoped_dir16252_2048641536"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54834"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "374661080c5cdc76a3b58c488f7ea4c0"
+}
+[1640723797.010][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND MaximizeWindow {
+
+}
+[1640723797.010][INFO]: Waiting for pending navigations...
+[1640723797.013][INFO]: Done waiting for pending navigations. Status: ok
+[1640723797.142][INFO]: Waiting for pending navigations...
+[1640723797.145][INFO]: Done waiting for pending navigations. Status: ok
+[1640723797.145][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1640723797.153][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1640723797.153][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE SetTimeouts
+[1640723797.170][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND Navigate {
+   "url": "https://demoqa.com/login"
+}
+[1640723797.170][INFO]: Waiting for pending navigations...
+[1640723797.174][INFO]: Done waiting for pending navigations. Status: ok
+[1640723797.665][INFO]: Waiting for pending navigations...
+[1640723802.707][INFO]: Done waiting for pending navigations. Status: ok
+[1640723802.707][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE Navigate
+[1640723804.963][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723804.971][INFO]: Waiting for pending navigations...
+[1640723804.973][INFO]: Done waiting for pending navigations. Status: ok
+[1640723804.985][INFO]: Waiting for pending navigations...
+[1640723804.986][INFO]: Done waiting for pending navigations. Status: ok
+[1640723804.987][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723805.219][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723805.219][INFO]: Waiting for pending navigations...
+[1640723805.220][INFO]: Done waiting for pending navigations. Status: ok
+[1640723805.226][INFO]: Waiting for pending navigations...
+[1640723805.227][INFO]: Done waiting for pending navigations. Status: ok
+[1640723805.227][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723805.442][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723805.442][INFO]: Waiting for pending navigations...
+[1640723805.447][INFO]: Done waiting for pending navigations. Status: ok
+[1640723805.456][INFO]: Waiting for pending navigations...
+[1640723805.456][INFO]: Done waiting for pending navigations. Status: ok
+[1640723805.456][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723805.672][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723805.672][INFO]: Waiting for pending navigations...
+[1640723805.673][INFO]: Done waiting for pending navigations. Status: ok
+[1640723805.682][INFO]: Waiting for pending navigations...
+[1640723805.683][INFO]: Done waiting for pending navigations. Status: ok
+[1640723805.683][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723805.900][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723805.900][INFO]: Waiting for pending navigations...
+[1640723805.902][INFO]: Done waiting for pending navigations. Status: ok
+[1640723805.909][INFO]: Waiting for pending navigations...
+[1640723805.910][INFO]: Done waiting for pending navigations. Status: ok
+[1640723805.910][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723806.131][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723806.131][INFO]: Waiting for pending navigations...
+[1640723806.132][INFO]: Done waiting for pending navigations. Status: ok
+[1640723806.142][INFO]: Waiting for pending navigations...
+[1640723806.143][INFO]: Done waiting for pending navigations. Status: ok
+[1640723806.143][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723806.353][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723806.353][INFO]: Waiting for pending navigations...
+[1640723806.354][INFO]: Done waiting for pending navigations. Status: ok
+[1640723806.360][INFO]: Waiting for pending navigations...
+[1640723806.360][INFO]: Done waiting for pending navigations. Status: ok
+[1640723806.360][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723806.572][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723806.572][INFO]: Waiting for pending navigations...
+[1640723806.574][INFO]: Done waiting for pending navigations. Status: ok
+[1640723806.581][INFO]: Waiting for pending navigations...
+[1640723806.581][INFO]: Done waiting for pending navigations. Status: ok
+[1640723806.581][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723806.797][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723806.797][INFO]: Waiting for pending navigations...
+[1640723806.798][INFO]: Done waiting for pending navigations. Status: ok
+[1640723806.807][INFO]: Waiting for pending navigations...
+[1640723806.808][INFO]: Done waiting for pending navigations. Status: ok
+[1640723806.808][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723807.030][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723807.030][INFO]: Waiting for pending navigations...
+[1640723807.031][INFO]: Done waiting for pending navigations. Status: ok
+[1640723807.042][INFO]: Waiting for pending navigations...
+[1640723807.043][INFO]: Done waiting for pending navigations. Status: ok
+[1640723807.043][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723807.252][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723807.253][INFO]: Waiting for pending navigations...
+[1640723807.254][INFO]: Done waiting for pending navigations. Status: ok
+[1640723807.260][INFO]: Waiting for pending navigations...
+[1640723807.260][INFO]: Done waiting for pending navigations. Status: ok
+[1640723807.260][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723807.471][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723807.471][INFO]: Waiting for pending navigations...
+[1640723807.472][INFO]: Done waiting for pending navigations. Status: ok
+[1640723807.482][INFO]: Waiting for pending navigations...
+[1640723807.485][INFO]: Done waiting for pending navigations. Status: ok
+[1640723807.485][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723807.706][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723807.706][INFO]: Waiting for pending navigations...
+[1640723807.707][INFO]: Done waiting for pending navigations. Status: ok
+[1640723807.717][INFO]: Waiting for pending navigations...
+[1640723807.718][INFO]: Done waiting for pending navigations. Status: ok
+[1640723807.718][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723807.928][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723807.928][INFO]: Waiting for pending navigations...
+[1640723807.929][INFO]: Done waiting for pending navigations. Status: ok
+[1640723807.936][INFO]: Waiting for pending navigations...
+[1640723807.937][INFO]: Done waiting for pending navigations. Status: ok
+[1640723807.937][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723808.147][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723808.147][INFO]: Waiting for pending navigations...
+[1640723808.148][INFO]: Done waiting for pending navigations. Status: ok
+[1640723808.158][INFO]: Waiting for pending navigations...
+[1640723808.160][INFO]: Done waiting for pending navigations. Status: ok
+[1640723808.160][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723808.371][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723808.371][INFO]: Waiting for pending navigations...
+[1640723808.372][INFO]: Done waiting for pending navigations. Status: ok
+[1640723808.380][INFO]: Waiting for pending navigations...
+[1640723808.381][INFO]: Done waiting for pending navigations. Status: ok
+[1640723808.381][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723808.596][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723808.596][INFO]: Waiting for pending navigations...
+[1640723808.598][INFO]: Done waiting for pending navigations. Status: ok
+[1640723808.605][INFO]: Waiting for pending navigations...
+[1640723808.606][INFO]: Done waiting for pending navigations. Status: ok
+[1640723808.606][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723808.821][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[contains(text(), 'Delete Account')]"
+}
+[1640723808.821][INFO]: Waiting for pending navigations...
+[1640723808.822][INFO]: Done waiting for pending navigations. Status: ok
+[1640723808.829][INFO]: Waiting for pending navigations...
+[1640723808.830][INFO]: Done waiting for pending navigations. Status: ok
+[1640723808.830][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Delete Account')]"}
+  (Session info: chrome=96.0.4664.110)
+[1640723809.043][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1640723809.043][INFO]: Waiting for pending navigations...
+[1640723809.044][INFO]: Done waiting for pending navigations. Status: ok
+[1640723809.053][INFO]: Waiting for pending navigations...
+[1640723809.054][INFO]: Done waiting for pending navigations. Status: ok
+[1640723809.054][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\u003Cscript type=\"text/javascript\" async=\"\" src=\"https://www.google-analytics.com/analytics.js\">\u003C/script>\u003Cscript type=\"tex..."
+[1640723809.070][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND Screenshot {
+
+}
+[1640723809.070][INFO]: Waiting for pending navigations...
+[1640723809.072][INFO]: Done waiting for pending navigations. Status: ok
+[1640723809.461][INFO]: Waiting for pending navigations...
+[1640723809.463][INFO]: Done waiting for pending navigations. Status: ok
+[1640723809.463][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAOuCAYAAADmSwqTAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvdmzHNd1p/utnVlVZ8REACQBUgAJcKZEWhQHUdey4+raLUXHbcsRDke4+62f+m/qt+5+Uasf3K0rqyW1ZMm2SJoUB3DARBATMRAgQABnPlWVudd92LmzduapA..."
+[1640723809.854][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] COMMAND Quit {
+
+}
+[1640723809.921][INFO]: [374661080c5cdc76a3b58c488f7ea4c0] RESPONSE Quit
