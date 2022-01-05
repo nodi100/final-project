@@ -1,0 +1,177 @@
+[1641402990.376][INFO]: Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 27761
+[1641402990.376][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1641402990.920][INFO]: [8ccd4ecdb0077621661a95c06978a208] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\NODO\\Desktop\\final_project\\build\\downloads\\1641402989610_13492_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\NODO\\Desktop\\final_project\\build\\downloads\\1641402989610_13492_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1641402990.926][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\NODO\\Desktop\\final_project\\build\\downloads\\1641402989610_13492_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1641402990.926][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1641402990.929][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\NODO\AppData\Local\Temp\scoped_dir5108_1577765886" data:,
+[1641402991.512][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1641402991.516][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1641402991.853][INFO]: [8ccd4ecdb0077621661a95c06978a208] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "96.0.4664.110",
+      "chrome": {
+         "chromedriverVersion": "96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})",
+         "userDataDir": "C:\\Users\\NODO\\AppData\\Local\\Temp\\scoped_dir5108_1577765886"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55802"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "8ccd4ecdb0077621661a95c06978a208"
+}
+[1641402992.021][INFO]: [8ccd4ecdb0077621661a95c06978a208] COMMAND MaximizeWindow {
+
+}
+[1641402992.021][INFO]: Waiting for pending navigations...
+[1641402992.026][INFO]: Done waiting for pending navigations. Status: ok
+[1641402992.156][INFO]: Waiting for pending navigations...
+[1641402992.158][INFO]: Done waiting for pending navigations. Status: ok
+[1641402992.158][INFO]: [8ccd4ecdb0077621661a95c06978a208] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1641402992.174][INFO]: [8ccd4ecdb0077621661a95c06978a208] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1641402992.174][INFO]: [8ccd4ecdb0077621661a95c06978a208] RESPONSE SetTimeouts
+[1641402992.198][INFO]: [8ccd4ecdb0077621661a95c06978a208] COMMAND Navigate {
+   "url": "https://demoqa.com/login"
+}
+[1641402992.198][INFO]: Waiting for pending navigations...
+[1641402992.199][INFO]: Done waiting for pending navigations. Status: ok
+[1641402992.553][INFO]: Waiting for pending navigations...
+[1641402996.609][INFO]: Done waiting for pending navigations. Status: ok
+[1641402996.609][INFO]: [8ccd4ecdb0077621661a95c06978a208] RESPONSE Navigate
+[1641403005.261][INFO]: [8ccd4ecdb0077621661a95c06978a208] COMMAND Quit {
+
+}
+[1641403005.443][INFO]: [8ccd4ecdb0077621661a95c06978a208] RESPONSE Quit

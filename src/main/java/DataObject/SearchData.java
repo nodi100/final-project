@@ -2,5 +2,5 @@ package DataObject;
 
 public interface SearchData {
     String
-        searchWord = "Reilly Media";
+        searchWord = "O'Reilly Media";
 }

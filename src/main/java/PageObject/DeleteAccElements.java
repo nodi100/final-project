@@ -9,6 +9,6 @@ public class DeleteAccElements {
     protected SelenideElement
         deleteAccButton = $(byXpath("//button[contains(text(), 'Delete Account')]")),
         yesButton = $(byXpath("//button[contains(text(), 'OK')]")),
-        errorText = $(byXpath("//p[contains(text(), 'Invalid')]"));
+        errorText = $("#name");
 }
 
